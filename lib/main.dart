@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:total_score_cards/views/reorderable_list_view_screen.dart';
+import 'package:total_score_cards/widgets/table_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: ReorderableListViewScreen(),
+      body: TableWidget(),
     );
   }
 }
